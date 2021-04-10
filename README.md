@@ -1,17 +1,6 @@
-![](https://github.com/dishaaagarwal/Loan_Prediction/blob/main/categorical_features.png)
-
-# Loan_Prediction
-
-
-
-In this Notebook we have done model building on the Loan_Prediction dataset using Logistic Regression.
-
-I was able to achieve an accuracy of 77% on the leaderboard.
-
 ## Loan-Prediction-Dataset
 
 From the challange hosted at: https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/
-
 
 
 ## Problem Statement:
@@ -38,3 +27,74 @@ Loan_Amount_Term | Term of loan in months
 Credit_History | credit history meets guidelines
 Property_Area | Urban/ Semi Urban/ Rural
 Loan_Status | Loan approved (Y/N)
+
+
+## Loan_Prediction Notebook Description
+
+In this Notebook I have Implemented Full Stack Data Science Project on the Loan_Prediction dataset using Logistic Regression. My main aim in this Notebook is to try discover more in the dataset while keeping model building simple so that it becomes easy to understand the concepts.
+
+### Table of Content
+
+
+1. **Hypothesis Generation**
+   
+   i. Salary : Applicants with high Salary have higher chance of paying the loan.
+
+   ii. LoanAmount: If it is less then chances of Loan approval is more.
+
+   iii. Loan_Amount_term: Less is the period or amount the more is the chances of Loan approval
+
+   iv. EMI: Less is the EMI to be paid/ month the more is the chances of Loan approval. 
+
+
+2. **EDA (Univariate and Bi-variate Analysis)**
+
+![](/images/numerical_features.png)
+
+![](/images/categorical_features.png)
+
+![](/images/numerical_bivariate_analysis.png)
+
+![](/images/categorical_bivariate_analysis.png)
+
+
+3. **Missing Value Imputation and Outlier Detection.**
+
+![](/images/Outlier_analysis_.png)
+
+
+4. **Feature Engineering.**
+
+![](/images/Total_Income_Feature_Engineering.png)
+
+
+5. **Preparing data for Model Building.**
+
+![](/images/test_data_histogram.png)
+
+![](/images/train_data_histogram.png)
+
+6. **Model-Building-1 using CV**
+
+
+7. **Evaluation metrics using Accuracy_score,ROC_curve**
+
+My accuracy score on test data was 80%
+
+![](/images/ROC_AUC.png)
+
+8. **Model-Building-1 using Feature Selection,Feature Scaling and Hyper-Parameter Tuning.**
+
+For this I had used SelectKBest as well as ExtraTree classifier to select the best features.Later I had used GridSearchCV for HyperParameter Tuning.
+
+
+9. **Re-Training the Model with the selected Parameters.**
+
+my accuracy has improved to 83%
+
+10. **Making Predictions and the Test Data.**
+
+
+11. **Making the Sample_Submissing with the Predictions.**
+
+I was able to achieve an accuracy of 77% on the leaderboard. 
