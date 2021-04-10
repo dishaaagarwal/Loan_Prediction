@@ -1,4 +1,8 @@
+![](/images/scatter.png)
+
 # Loan_Prediction
+
+
 
 In this Notebook we have done model building on the Loan_Prediction dataset using Logistic Regression.
 
