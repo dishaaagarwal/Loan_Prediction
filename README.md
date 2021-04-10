@@ -1,4 +1,4 @@
-![](/images/scatter.png)
+![](https://github.com/dishaaagarwal/Loan_Prediction/blob/main/categorical_features.png)
 
 # Loan_Prediction
 
